@@ -1,2 +1,176 @@
-<h1>Test</h1>
-<img src="raw/main/logo.jpg">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="https://github.com/githubbyad/Khadija_Creation/raw/main/docs/favicon.ico">
+    <meta name="keywords" content="Khadija Creation">
+    <meta name="description" content="Khadija Creation">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khadija Creation</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <style>
+        .font {
+            font-family: 'Dancing Script', cursive;
+            color: #e03196;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        
+        .wrap {
+            width: 100%;
+            float: left;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        .wrapp_inner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+            background: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+            font-weight: bold;
+            background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+            background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+            background-position: left top, right bottom, left bottom, right top;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+            background-image: linear-gradient(90deg, #d53096 50%, transparent 50%), linear-gradient(90deg, #d53096 50%, transparent 50%), linear-gradient(0deg, #d53096 50%, transparent 50%), linear-gradient(0deg, #d53096 50%, transparent 50%);
+            background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+            background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+            background-position: left top, right bottom, left bottom, right top;
+            animation: hpe-border 400ms infinite linear;
+            box-sizing: border-box;
+            flex-direction: column;
+        }
+        
+        @keyframes hpe-border {
+            0% {
+                background-position: left top, right bottom, left bottom, right top;
+            }
+            100% {
+                background-position: left 15px top, right 15px bottom, left bottom 15px, right top 15px;
+            }
+        }
+        
+        .label {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 2.5rem;
+            font-weight: normal;
+            color: white;
+            text-align: left;
+            background: #e03196;
+            text-indent: 20px;
+            display: inline-block;
+            width: 100%;
+        }
+        
+        .payment {
+            width: 80%;
+            margin-top: 20px;
+        }
+        
+        .methods {
+            width: 80%;
+            margin-top: 30px;
+        }
+        
+        .gpay {
+            width: 45%;
+            float: left;
+            margin-right: 10%;
+        }
+        
+        .paytm {
+            width: 45%;
+            float: left;
+        }
+        
+        .g1 img {
+            max-width: 50%;
+            max-height: 75px;
+        }
+        
+        .p1 img {
+            max-width: 50%;
+        }
+        
+        .g1 {
+            border: 2px solid #e03196;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        
+        .p1 {
+            border: 2px solid #e03196;
+            border-radius: 20px;
+            padding: 20px;
+        }
+        
+        .b1 {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 2rem;
+        }
+        
+        .bank {
+            width: 45%;
+            margin-top: 20px;
+            display: flex;
+            float: left;
+            clear: both;
+            border: 2px solid #e03196;
+            border-radius: 20px;
+            padding: 20px;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .methods>div {
+            height: 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="wrapp_inner">
+            <div class="header">
+                <a href="https://www.instagram.com/khadija_creati0n/?hl=en" target="_blank"><img src="https://githubbyad.github.io/Khadija_Creation/logo.jpg"></a>
+            </div>
+            <div class="font">
+                Khadija Creation
+            </div>
+            <div class="payment">
+                <div class="label">
+                    Payment Methods
+                </div>
+            </div>
+            <dic class="methods">
+                <div class="gpay">
+                    <div class="g1">
+                        <img src="https://github.com/githubbyad/Khadija_Creation/raw/main/docs/gpay.png">
+                    </div>
+                </div>
+                <div class="paytm">
+                    <div class="p1">
+                        <img src="https://github.com/githubbyad/Khadija_Creation/raw/main/docs/paytm.png">
+                    </div>
+                </div>
+                <div class="bank">
+                    <div class="b1">
+                        Bank Transfer
+                    </div>
+                </div>
+            </dic>
+        </div>
+    </div>
+</body>
+
+</html>
